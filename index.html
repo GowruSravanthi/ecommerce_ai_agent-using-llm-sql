@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS AI - Ecommerce Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- React CDN -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <!-- Babel for JSX -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React Components -->
+  <script type="text/babel" src="components/Avatar.js"></script>
+  <script type="text/babel" src="components/Button.js"></script>
+  <script type="text/babel" src="components/Input.js"></script>
+  <script type="text/babel" src="components/Card.js"></script>
+  <script type="text/babel" src="components/Toast.js"></script>
+  <script type="text/babel" src="components/AuthPage.js"></script>
+  <script type="text/babel" src="components/Sidebar.js"></script>
+  <script type="text/babel" src="components/ChatInterface.js"></script>
+  <script type="text/babel" src="components/SettingsPage.js"></script>
+  <script type="text/babel" src="components/FeedbackPage.js"></script>
+  <script type="text/babel" src="components/CameraPage.js"></script>
+  <script type="text/babel" src="App.js"></script>
+  
+  <!-- Main Script -->
+  <script type="text/babel">
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
